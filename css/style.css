@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+* * {
+  box-shadow: 0 0 0 1px lawngreen;
+}
+h1 {
+  color: #333333;
+  margin: 0 auto;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 11px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+nav .flud {
+  width: 100%;
+}
+nav .flud a {
+  padding-left: 52px;
+  text-decoration: none;
+  margin-right: 55px;
+  color: #333333;
+  text-transform: uppercase;
+  font-family: linotype-didot, Georgia, serif;
+}
+nav .flud ul,
+nav .flud li {
+  display: inline;
+}
+img {
+  vertical-align: middle;
+  height: 29px;
+}
+.main-pic {
+  background-image: url('../img/maaain.png');
+  height: 600px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.main-pic p {
+  color: #b1b5b4;
+  padding-left: 10%;
+  font-size: 40px;
+  position: relative;
+  top: 30%;
+  left: 60%;
+  width: 20%;
+  text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section {
+  text-transform: uppercase;
+  text-align: center !important;
+  padding: 40px 15% 80px 15%;
+}
+section .buttons1 {
+  margin-top: 0;
+}
+section .buttons1 .btn {
+  text-transform: uppercase;
+  padding: 8px 14px;
+  background-color: #000;
+  color: #fff;
+  margin-right: 20px;
+  border-color: #000;
+  display: inline-block;
+  font-weight: 400;
+  text-decoration: none;
+}
+section .buttons1 .buttons2 {
+  margin-top: 7px;
+}
+section .buttons1 .buttons3 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
