@@ -4,7 +4,8 @@
   var SUCCESS_CODE = 200;
   var TIME_OUT = 10000;
   var POST_URL = 'https://javascript.pages.academy/kekstagram';
-  var GET_URL = '../data.json';
+  var GET_URL = './data.json';
+
   var templateError = document.querySelector('#error').content.querySelector('.error');
   var tagMain = document.querySelector('main');
 
